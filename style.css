@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:'Roboto', sans-serif;
+    background-color: rgb(240, 242, 246);
+    text-align: center;
+}
+h1{
+    font-size:xx-large;
+}
+header{
+    background-color: rgb(208, 231, 232);
+    height: 50px;
+}
+img{
+    padding: 20px;
+    height: 150px;
+    border-style: solid;
+    color: rgb(202, 181, 213);
+}
+nav{
+    background-color: rgb(225, 220, 231);
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+    height: 50px;
+    border-style: solid;
+    border-color: rgb(28, 131, 222);
+    border-radius: 15px;
+}
+nav a{  
+    border-radius: 25px;
+    border-style: solid;
+    border-color: rgb(28, 131, 222);
+    padding:5px;
+    margin: 5px;
+    text-decoration: none;
+    background-color:#FFFFFF;
+}
+nav a:hover{
+    background-color: #f6f0e5;
+    color:rgb(230, 7, 7);
+}
+li{
+    list-style: none;
+}
+.formulario{
+    height: 350px;
+    width: 100%;
+    padding-top: 30px;
+}
+
+footer{
+    height: 70px;
+    background-color:  rgb(208, 231, 232);
+    border-style: solid;
+    border-radius: 15px;
+    padding-top: 5px;
+    border-color: rgb(28, 131, 222);
+}
