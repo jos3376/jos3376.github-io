@@ -17,6 +17,7 @@ header{
 img{
     padding: 20px;
     height: 150px;
+    width: 150px;
     border-style: solid;
     color: rgb(202, 181, 213);
 }
