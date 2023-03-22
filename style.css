@@ -8,41 +8,43 @@ body{
     text-align: center;
 }
 h1{
-    font-size:xx-large;
+    font-style:oblique;
+    padding: 15px;
 }
 header{
     background-color: rgb(208, 231, 232);
-    height: 50px;
+    height: 70px;
 }
 img{
     padding: 20px;
     height: 150px;
     width: 150px;
-    border-style: solid;
-    color: rgb(202, 181, 213);
 }
 nav{
-    background-color: rgb(225, 220, 231);
+    background-image: radial-gradient( circle 767px at 10.2% 22.1%,  rgba(11,218,81,1) 0%, rgba(0,191,255,1) 90% );
     display: flex;
     align-items: center;
-    justify-content:space-around ;
-    height: 50px;
+    justify-content:space-around;
+    height: 80px;
     border-style: solid;
     border-color: rgb(28, 131, 222);
     border-radius: 15px;
 }
-nav a{  
-    border-radius: 25px;
+nav a{ 
+    font-weight: 600; 
+    border-radius: 35px;
     border-style: solid;
     border-color: rgb(28, 131, 222);
-    padding:5px;
-    margin: 5px;
+    padding:15px;
     text-decoration: none;
     background-color:#FFFFFF;
+    
 }
 nav a:hover{
-    background-color: #f6f0e5;
-    color:rgb(230, 7, 7);
+    background-color: #180469;
+    color:#FFFFFF;
+    transition: 1s;
+    
 }
 li{
     list-style: none;
@@ -52,12 +54,37 @@ li{
     width: 100%;
     padding-top: 30px;
 }
+.buttons {
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+}
+.buttons a {
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #f2f4f6;
+    color: #0e0197;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+}
+.buttons a:hover {
+    transform: scale(1.2);
+    background-color: #180469;
+    color:#FFFFFF;
+}
 
 footer{
-    height: 70px;
-    background-color:  rgb(208, 231, 232);
+    height: 100px;
+    background-image: radial-gradient( circle 767px at 10.2% 22.1%,  rgba(11,218,81,1) 0%, rgba(0,191,255,1) 90% );
     border-style: solid;
     border-radius: 15px;
     padding-top: 5px;
     border-color: rgb(28, 131, 222);
+    padding-bottom: 5px;
 }
